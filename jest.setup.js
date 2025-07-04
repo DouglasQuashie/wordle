@@ -10,7 +10,7 @@ const localStorageMock = {
 global.localStorage = localStorageMock
 
 // Mock words.json
-jest.mock('./words.json', () => [
+jest.mock('./src/app/words.json', () => [
   'javascript',
   'typescript',
   'nextjs',

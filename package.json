@@ -9,7 +9,6 @@
     "lint": "next lint",
     "test": "jest --watchAll --env=jsdom",
     "test:coverage": "jest --coverage --env=jsdom"
-    
   },
   "dependencies": {
     "next": "15.3.4",
